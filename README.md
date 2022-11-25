@@ -30,3 +30,9 @@ Collection of design patterns in Golang and SOLID principles.
  - A factory function (a.k.a constructor) is a helper function for making struct instances.
  - A factory is any entity that can take care of object creation.
  - Can be a function or a dedicated struct.
+
+### Prototype
+ - To implement a prototype, partially construct an object and store it somewhere.
+ - Deep copy the prototype.
+ - Customize the resulting instance.
+ - A prototype factory provides a convenient API for using prototypes.
