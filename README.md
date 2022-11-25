@@ -1,4 +1,4 @@
-# Golang Design Patterns
+# Go Design Patterns
 
 Collection of design patterns in Golang and SOLID principles.
 
@@ -19,3 +19,9 @@ Collection of design patterns in Golang and SOLID principles.
 
 ### Dependency Inversion Principle
   - High-level modules should not depend upon low-level ones; use abstractions.
+
+## Design Patterns
+### Builder
+ - A builder is a separate component used for building an object.
+ - To make builder fluent, return the receiver - allows chaining.
+ - Different facets of an object can be built with different builders working in tandem via a common struct.
