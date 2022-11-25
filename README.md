@@ -4,7 +4,7 @@ Collection of design patterns in Golang and SOLID principles.
 
 ## SOLID
 ### Single Responsibility Principle
-  - A type should only have one reason to change
+  - A type should only have one reason to change.
   - Separation of concerns - different types/packages handling different, independent tasks/problems.
   
 ### Open-Closed Principle
@@ -25,3 +25,8 @@ Collection of design patterns in Golang and SOLID principles.
  - A builder is a separate component used for building an object.
  - To make builder fluent, return the receiver - allows chaining.
  - Different facets of an object can be built with different builders working in tandem via a common struct.
+
+### Factory
+ - A factory function (a.k.a constructor) is a helper function for making struct instances.
+ - A factory is any entity that can take care of object creation.
+ - Can be a function or a dedicated struct.
