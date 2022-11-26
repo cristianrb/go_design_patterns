@@ -42,6 +42,11 @@ Collection of design patterns in Golang and SOLID principles.
  - Composite design pattern lets us treat both types of objects uniformly.
  - Iteration supported with the Iterator design pattern.
 
+### Decorator
+ - A decorator embeds the decorator object.
+ - Adds utility fields and methods to augment the objects features.
+ - Often used to emulate multiple inheritance (may require extra work)
+
 ### Factory
  - A factory function (a.k.a constructor) is a helper function for making struct instances.
  - A factory is any entity that can take care of object creation.
