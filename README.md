@@ -36,3 +36,7 @@ Collection of design patterns in Golang and SOLID principles.
  - Deep copy the prototype.
  - Customize the resulting instance.
  - A prototype factory provides a convenient API for using prototypes.
+
+### Singleton
+ - Lazy one-time initialization using sync.Once.
+ - Adhere to DIP: depend on interfaces, not concrete types.
