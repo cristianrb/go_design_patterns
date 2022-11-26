@@ -21,6 +21,16 @@ Collection of design patterns in Golang and SOLID principles.
   - High-level modules should not depend upon low-level ones; use abstractions.
 
 ## Design Patterns
+### Adapter
+- Determine the API you have and the API you need.
+- Create a component which aggregates (has a pointer to, ...) the adapter.
+- Intermediate representations can pile up: use caching and other optimizations.
+
+### Bridge
+- Decouple abstraction from implementation.
+- Both can exist as hierarchies.
+- A stronger form of encapsulation.
+
 ### Builder
  - A builder is a separate component used for building an object.
  - To make builder fluent, return the receiver - allows chaining.
@@ -40,8 +50,3 @@ Collection of design patterns in Golang and SOLID principles.
 ### Singleton
  - Lazy one-time initialization using sync.Once.
  - Adhere to DIP: depend on interfaces, not concrete types.
-
-### Adapter
- - Determine the API you have and the API you need.
- - Create a component which aggregates (has a pointer to, ...) the adapter.
- - Intermediate representations can pile up: use caching and other optimizations.
