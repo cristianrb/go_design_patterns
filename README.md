@@ -40,3 +40,8 @@ Collection of design patterns in Golang and SOLID principles.
 ### Singleton
  - Lazy one-time initialization using sync.Once.
  - Adhere to DIP: depend on interfaces, not concrete types.
+
+### Adapter
+ - Determine the API you have and the API you need.
+ - Create a component which aggregates (has a pointer to, ...) the adapter.
+ - Intermediate representations can pile up: use caching and other optimizations.
