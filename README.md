@@ -36,6 +36,12 @@ Collection of design patterns in Golang and SOLID principles.
  - To make builder fluent, return the receiver - allows chaining.
  - Different facets of an object can be built with different builders working in tandem via a common struct.
 
+### Composite
+ - Objects can use other objects via composition.
+ - Some composed and singular objects need similar/identical behaviors.
+ - Composite design pattern lets us treat both types of objects uniformly.
+ - Iteration supported with the Iterator design pattern.
+
 ### Factory
  - A factory function (a.k.a constructor) is a helper function for making struct instances.
  - A factory is any entity that can take care of object creation.
