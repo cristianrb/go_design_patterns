@@ -68,6 +68,12 @@ Collection of design patterns in Golang and SOLID principles.
  - Customize the resulting instance.
  - A prototype factory provides a convenient API for using prototypes.
 
+### Proxy
+ - A proxy has the same interface as the underlying object.
+ - To create a proxy, simply replicate the existing interface of an object.
+ - Add relevant functionality to the redefined methods.
+ - Different proxies (communication, logging, caching, etc.) have completely different behaviors.
+
 ### Singleton
  - Lazy one-time initialization using sync.Once.
  - Adhere to DIP: depend on interfaces, not concrete types.
