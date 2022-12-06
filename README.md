@@ -41,6 +41,12 @@ Collection of design patterns in Golang and SOLID principles.
  - Enlist objects in the chain, possibly controlling their order.
  - Control object removal from chain.
 
+### Command
+ - Encapsulate all details of an operation in a separate object.
+ - Define functions for applying the command (either in hte command itself, or elsewhere)
+ - Optionally define instructions for undoing the command.
+ - Can create composite commands (a.k.a. macros)
+
 ### Composite
  - Objects can use other objects via composition.
  - Some composed and singular objects need similar/identical behaviors.
