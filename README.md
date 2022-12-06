@@ -36,6 +36,11 @@ Collection of design patterns in Golang and SOLID principles.
  - To make builder fluent, return the receiver - allows chaining.
  - Different facets of an object can be built with different builders working in tandem via a common struct.
 
+### Chain of Responsibility
+ - Chain of Responsibility can be implemented as a linked list of pointers or a centralized construct.
+ - Enlist objects in the chain, possibly controlling their order.
+ - Control object removal from chain.
+
 ### Composite
  - Objects can use other objects via composition.
  - Some composed and singular objects need similar/identical behaviors.
