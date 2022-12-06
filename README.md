@@ -73,6 +73,12 @@ Collection of design patterns in Golang and SOLID principles.
  - Specify an index or a pointer into the external data store.
  - Define the idea of ranges on homogeneous collections and store data related to those ranges.
 
+### Interpreter
+ - Barring simple cases,an interpreter act in two stages.
+ - Lexing turns text into a set of tokens.
+ - Parsing tokens into meaningful constructs (AST = Abstract Syntax Tree)
+ - Parsed data can then be traversed using the Visitor pattern.
+
 ### Prototype
  - To implement a prototype, partially construct an object and store it somewhere.
  - Deep copy the prototype.
