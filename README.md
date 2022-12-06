@@ -57,6 +57,11 @@ Collection of design patterns in Golang and SOLID principles.
  - A factory is any entity that can take care of object creation.
  - Can be a function or a dedicated struct.
 
+### Flyweight
+ - Store common data externally.
+ - Specify an index or a pointer into the external data store.
+ - Define the idea of ranges on homogeneous collections and store data related to those ranges.
+
 ### Prototype
  - To implement a prototype, partially construct an object and store it somewhere.
  - Deep copy the prototype.
