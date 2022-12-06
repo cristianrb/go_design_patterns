@@ -47,6 +47,11 @@ Collection of design patterns in Golang and SOLID principles.
  - Adds utility fields and methods to augment the objects features.
  - Often used to emulate multiple inheritance (may require extra work)
 
+### Facade
+ - Build a Facade to provide a simplified API over a set of components.
+ - May wish to (optionally) expose internals through the facade.
+ - May allow users to escalate to use more complex APIs if they need to.
+
 ### Factory
  - A factory function (a.k.a constructor) is a helper function for making struct instances.
  - A factory is any entity that can take care of object creation.
