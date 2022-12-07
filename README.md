@@ -91,6 +91,12 @@ Collection of design patterns in Golang and SOLID principles.
  - Components have methods the mediator can call.
  - Even processing (e.g., Rx) libraries make communication easier to implement.
 
+### Memento
+ - Mementos are used to roll back states arbitrarily.
+ - A memento is simply a token/handle with (typically) no methods of its own.
+ - A memento is not required to expose directly the state(s) to which it reverts the system.
+ - Can be used to implement undo/redo.
+
 ### Prototype
  - To implement a prototype, partially construct an object and store it somewhere.
  - Deep copy the prototype.
