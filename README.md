@@ -133,3 +133,13 @@ Collection of design patterns in Golang and SOLID principles.
  - Define an algorithmat a high level.
  - Define the interface you expect each strategy to follow.
  - Support the injection of the strategy into the high-level algorithm.
+
+### Template Method
+ - Very similar to Strategy
+ - Typical implementation:
+   - Define an interface with common operations.
+   - Make use of those operations inside a function.
+ - Alternative functional approach:
+   - Make a function that takes several functions.
+   - Can pass in functions that capture local state.
+   - No need for either structs or interfacs.
