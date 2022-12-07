@@ -84,6 +84,13 @@ Collection of design patterns in Golang and SOLID principles.
  - Moves along the iterated collection, indicating when last element has been reached.
  - Not idiomatic in Go (no standard Iterable interface)
 
+### Mediator
+ - Create the mediator and have each object in the system point to it.
+ - Mediator engages in bidirectional communication with its connected components.
+ - Mediator has methods the components can call.
+ - Components have methods the mediator can call.
+ - Even processing (e.g., Rx) libraries make communication easier to implement.
+
 ### Prototype
  - To implement a prototype, partially construct an object and store it somewhere.
  - Deep copy the prototype.
