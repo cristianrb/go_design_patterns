@@ -79,6 +79,11 @@ Collection of design patterns in Golang and SOLID principles.
  - Parsing tokens into meaningful constructs (AST = Abstract Syntax Tree)
  - Parsed data can then be traversed using the Visitor pattern.
 
+### Iterator
+ - An iterator specifies how you can traverse an object.
+ - Moves along the iterated collection, indicating when last element has been reached.
+ - Not idiomatic in Go (no standard Iterable interface)
+
 ### Prototype
  - To implement a prototype, partially construct an object and store it somewhere.
  - Deep copy the prototype.
