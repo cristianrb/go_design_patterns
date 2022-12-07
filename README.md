@@ -120,3 +120,11 @@ Collection of design patterns in Golang and SOLID principles.
 ### Singleton
  - Lazy one-time initialization using sync.Once.
  - Adhere to DIP: depend on interfaces, not concrete types.
+
+### State
+ - Given sufficient complexity, it pays to formally define possible states and events/triggers.
+ - Can define:
+   - State entry/exit behaviours.
+   - Action when a particular event causes a transition.
+   - Guard conditions enabling/disabling a transition.
+   - Default action when no transitions are found for an event.
