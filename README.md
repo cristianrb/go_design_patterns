@@ -128,3 +128,8 @@ Collection of design patterns in Golang and SOLID principles.
    - Action when a particular event causes a transition.
    - Guard conditions enabling/disabling a transition.
    - Default action when no transitions are found for an event.
+
+### Strategy
+ - Define an algorithmat a high level.
+ - Define the interface you expect each strategy to follow.
+ - Support the injection of the strategy into the high-level algorithm.
