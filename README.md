@@ -97,6 +97,14 @@ Collection of design patterns in Golang and SOLID principles.
  - A memento is not required to expose directly the state(s) to which it reverts the system.
  - Can be used to implement undo/redo.
 
+### Observer
+ - Observer is an intrusive approach.
+ - Must provide a way of clients to subscribe.
+ - Event data sent from observable to all observers.
+ - Data represented as interface{} (or any)
+ - Unsubscription is possible.
+ - More info with channels and goroutines: https://eli.thegreenplace.net/2020/pubsub-using-channels-in-go/
+
 ### Prototype
  - To implement a prototype, partially construct an object and store it somewhere.
  - Deep copy the prototype.
