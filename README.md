@@ -142,4 +142,9 @@ Collection of design patterns in Golang and SOLID principles.
  - Alternative functional approach:
    - Make a function that takes several functions.
    - Can pass in functions that capture local state.
-   - No need for either structs or interfacs.
+   - No need for either structs or interfaces.
+
+### Visitor
+ - Propagate an Accept(v *Visitor) method throughout the entire hierarchy.
+ - Create a visitor with VisitFoo(f Foo), VisitBar(b Bar), ... for each element in the hierarchy.
+ - Each Accept() simply calls Visitor.VisitXxx(self)
